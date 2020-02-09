@@ -8,7 +8,10 @@ try:
     os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "key.json"
 except:
     print("Please check if \"key.json\" file exists.")
-    
+
+# https://pydata-google-auth.readthedocs.io/en/latest/cli.html#loading-user-credentials-with-print-token
+#  access token associate with the credentials at ~/keys/google-credentials.json.  
+
 projectid = 'local-bastion-154121'
 filename = 'master.csv'	# pass csv filename as commandline argument
 dataset_id = 'Property_Dataset'
