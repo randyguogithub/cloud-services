@@ -1,4 +1,4 @@
-<mxfile modified="2023-11-26T10:34:14.070Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="R2gBlOFap7NFyP9d9sHi" version="22.1.4" type="github">
+<mxfile modified="2023-11-26T12:01:24.652Z" host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8--XN8JCvkfgGEhIjQCv" version="22.1.4" type="github">
   <diagram id="f106602c-feb2-e66a-4537-3a34d633f6aa" name="Page-1">
     <mxGraphModel dx="1125" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -100,29 +100,29 @@
         <mxCell id="WfaphZd9pnGTl5hi2Dzi-1011" value="1 Http load balance&amp;nbsp;" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
           <mxGeometry width="200" height="30" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1012" value="2 Detect code change" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
-          <mxGeometry width="200" height="30" relative="1" as="geometry">
+        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1012" value="4 Connect with confluence api to retrieve the data from on-prem" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
+          <mxGeometry width="330" height="30" relative="1" as="geometry">
             <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WfaphZd9pnGTl5hi2Dzi-1013" value="2 Web service to provide the UI with new data for users&#39; interaction" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
           <mxGeometry width="380" height="30" relative="1" as="geometry">
-            <mxPoint x="260" as="offset" />
+            <mxPoint x="325" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1014" value="4 Confluence API to retrieve new data from on-prem" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
-          <mxGeometry width="200" height="30" relative="1" as="geometry">
-            <mxPoint x="200" y="30" as="offset" />
+        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1014" value="5&amp;nbsp;Connect with RSS to retrieve external data from public internet" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
+          <mxGeometry width="350" height="30" relative="1" as="geometry">
+            <mxPoint x="330" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1015" value="5 Run tests" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
-          <mxGeometry width="200" height="30" relative="1" as="geometry">
+        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1015" value="5 Flask framework provide microservice API" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
+          <mxGeometry width="260" height="30" relative="1" as="geometry">
             <mxPoint x="720" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1016" value="6 Perform rolling update of image to autoscaler" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
-          <mxGeometry width="200" height="30" relative="1" as="geometry">
-            <mxPoint x="400" y="30" as="offset" />
+        <mxCell id="WfaphZd9pnGTl5hi2Dzi-1016" value="6 Run the process 4 and 5 in every hour to update the data" style="strokeColor=none;fillColor=none;fontColor=#757575;align=left;html=1;fontStyle=0;spacingLeft=5;fontSize=11;verticalAlign=top;whiteSpace=wrap;spacingRight=5;" vertex="1" parent="WfaphZd9pnGTl5hi2Dzi-1010">
+          <mxGeometry width="400" height="30" relative="1" as="geometry">
+            <mxPoint x="720" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="WfaphZd9pnGTl5hi2Dzi-1029" value="4" style="shape=ellipse;perimeter=ellipsePerimeter;strokeColor=#BDBDBD;strokeWidth=2;shadow=0;gradientColor=none;fontColor=#757575;align=center;html=1;fontStyle=1;spacingTop=-1;" vertex="1" parent="1">
