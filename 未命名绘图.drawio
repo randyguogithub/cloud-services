@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="550iC6emasFMOW-cdcPQ-6" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.github" vertex="1" parent="1">
-          <mxGeometry x="170" y="570" width="75" height="75" as="geometry" />
+          <mxGeometry x="75" y="570" width="75" height="75" as="geometry" />
         </mxCell>
         <mxCell id="550iC6emasFMOW-cdcPQ-21" value="Google cloud" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#F3E5F5;" vertex="1" parent="1">
           <mxGeometry x="590" y="532.5" width="120" height="150" as="geometry" />
@@ -41,6 +41,53 @@
           <mxGeometry width="100" relative="1" as="geometry">
             <mxPoint x="270" y="650" as="sourcePoint" />
             <mxPoint x="460" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-26" value="GitOps with service account manage cloud infra" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="550iC6emasFMOW-cdcPQ-22">
+          <mxGeometry x="-0.2986" y="6" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="30" y="710" as="sourcePoint" />
+            <mxPoint x="780" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-24" value="CI/CD Pipeline" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[1,1,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];rounded=1;absoluteArcSize=1;arcSize=2;html=1;strokeColor=none;gradientColor=none;shadow=0;dashed=0;fontSize=12;fontColor=#9E9E9E;align=left;verticalAlign=top;spacing=10;spacingTop=-4;whiteSpace=wrap;fillColor=#E0F2F1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="740" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-25" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;strokeColor=#9E9E9E;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="550iC6emasFMOW-cdcPQ-6" target="550iC6emasFMOW-cdcPQ-24">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="200" y="650" as="sourcePoint" />
+            <mxPoint x="460" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="113" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-27" value="2. Access with github token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="550iC6emasFMOW-cdcPQ-25">
+          <mxGeometry x="0.0128" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-28" value="" style="edgeStyle=orthogonalEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;rounded=0;strokeWidth=2;endSize=4;startSize=4;strokeColor=#9E9E9E;" edge="1" parent="1" source="550iC6emasFMOW-cdcPQ-24" target="550iC6emasFMOW-cdcPQ-21">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="480" y="740" as="sourcePoint" />
+            <mxPoint x="360" y="750" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-29" value="3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="550iC6emasFMOW-cdcPQ-28">
+          <mxGeometry x="0.0128" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="550iC6emasFMOW-cdcPQ-30" value="3. Access with GCP service account" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="550iC6emasFMOW-cdcPQ-28">
+          <mxGeometry x="-0.0545" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
